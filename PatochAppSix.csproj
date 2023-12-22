@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="196-EXPLEO_2023_lowres-196.jpg" />
+    <None Remove="Moah.JPG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="196-EXPLEO_2023_lowres-196.jpg" />
+    <Resource Include="Moah.JPG" />
+  </ItemGroup>
+
+</Project>

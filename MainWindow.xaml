@@ -1,0 +1,59 @@
+﻿<Window x:Class="PatochAppSix.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PatochAppSix"
+        mc:Ignorable="d"
+        Title="PatochAppSix" Height="800" Width="1000" d:DesignHeight="800" d:DesignWidth="1000"
+        Background="Black" Icon="/Moah.JPG" ResizeMode="NoResize">
+
+    <Grid>
+
+        <StackPanel x:Name="StackOne" Height="100"   Background="Red" RenderTransformOrigin="0.506,0.529" Margin="47,394,-194,290">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="60.424"/>
+                    <TranslateTransform X="-7.845" Y="3.089"/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+        </StackPanel>
+
+        <StackPanel x:Name="StackTwo" Height="80" Background="Aqua" RenderTransformOrigin="0.499,0.527" Margin="191,383,-332,321" >
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="60.424"/>
+                    <TranslateTransform X="-3.646" Y="-3.402"/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+        </StackPanel>
+
+        <StackPanel x:Name="StackThree" Background="Violet" RenderTransformOrigin="0.499,0.527" Margin="329,381,-469,327">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="60.424"/>
+                    <TranslateTransform X="-3.646" Y="-3.402"/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+        </StackPanel>
+
+        <StackPanel x:Name="StackFour" Background="LawnGreen" RenderTransformOrigin="0.499,0.527" Margin="510,215,-650,343">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="60.424"/>
+                    <TranslateTransform X="-3.646" Y="-3.402"/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+        </StackPanel>
+
+    </Grid>
+
+</Window>
