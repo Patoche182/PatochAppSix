@@ -53,6 +53,8 @@
                 </TransformGroup>
             </StackPanel.RenderTransform>
         </StackPanel>
+        <Button Content="Button" Margin="102,356,708,355"/>
+        <ComboBox Margin="102,523,500,222"/>
 
     </Grid>
 
